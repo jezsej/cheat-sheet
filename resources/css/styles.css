@@ -1,5 +1,6 @@
 body {
-    background-color: aqua;
+    background-color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -7,11 +8,27 @@ header {
     text-align: center;
 }
 
-table tbody td {
-    font-family: monospace;
+.section-label {
+    text-align: center;
 }
 
-
-/* header div {
+.tables {
     margin: 0 auto;
-} */
+    width: 50%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+table tbody .tags {
+    font-family: 'Space Mono', monospace;
+    ;
+}
